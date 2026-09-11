@@ -9,6 +9,7 @@ torchvision/version.py
 */**/**/*.pyc
 */**/*~
 *~
+.venv-train/
 
 docs/build
 # sphinx-gallery
@@ -19,6 +20,10 @@ docs/source/models/generated/
 docs/source/sg_execution_times.rst
 # pytorch-sphinx-theme gets installed here
 docs/src
+data/raw
+data/test
+data/yolo
+runs/ultralytics
 
 .coverage
 htmlcov
